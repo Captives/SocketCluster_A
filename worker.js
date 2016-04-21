@@ -136,6 +136,7 @@ module.exports.run = function (worker) {
             console.log("Client " + socket.id + " has disconnected!");
         });
 
+        //broker
         socket.on('broker', function (data) {
             console.log("broker", data);
         });
