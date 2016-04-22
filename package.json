@@ -9,9 +9,11 @@
     }
   ],
   "dependencies": {
+    "async": "^2.0.0-rc.3",
     "body-parser": "^1.15.0",
     "client-sessions": "^0.7.0",
     "connect": "3.0.1",
+    "cookie-parser": "^1.4.1",
     "crypto": "0.0.3",
     "express": "4.13.1",
     "jade": "1.11.x",
